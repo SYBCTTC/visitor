@@ -1,0 +1,381 @@
+.site-head{
+  height: 150px;
+  min-width: 1152px;
+}
+.site-head .topbar{
+  height: 32px;
+  background-color: #2a2a2a;
+  color: white;
+  line-height: 32px;
+}
+.site-head .topbar a{
+  color: white;
+}
+.site-head .topbar .shortcut-links{
+  float: left;
+}
+.site-head .topbar .shortcut-links ul{
+  
+}
+.site-head .topbar .shortcut-links > ul > li{
+  float: left;
+  margin-right: 18px;
+  font-size: 14px;
+}
+.site-head .topbar .shortcut-links > ul > li.have-menu{
+  padding-right: 14px;
+  position: relative;
+}
+.site-head .topbar .shortcut-links > ul > li.have-menu .arrow{
+  position: absolute;
+  right: 0;
+  top:50%;
+  margin-top: -6px;
+  width: 12px;
+  height: 12px;
+  transition: transform .2s ease 0s;
+}
+.site-head .topbar .shortcut-links > ul > li.have-menu:hover .arrow{
+  transform: rotate(180deg);
+}
+.site-head .topbar .shortcut-links > ul > li.have-menu .arrow b{
+  position: absolute;
+  left: 4px;
+  top:2px;
+  width: 6px;
+  height: 6px;
+  background-color: #fff;
+  transform: rotate(45deg);
+}
+.site-head .topbar .shortcut-links > ul > li.have-menu .arrow i{
+  position: absolute;
+  left: 4px;
+  top:0.5px;
+  width: 6px;
+  height: 6px;
+  background-color: #2a2a2a;
+  transform: rotate(45deg);
+}
+.site-head .topbar .shortcut-links > ul > li.have-menu .menu{
+  position: absolute;
+  top:30px;
+  background-color: white;
+  z-index: 9999;
+  display: none;
+  padding-top: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+.site-head .topbar .shortcut-links > ul > li.have-menu:hover .menu{
+  display: block;
+}
+.site-head .topbar .shortcut-links > ul > li.have-menu .menu .menu-list li{
+  height: 20px;
+  line-height: 20px;
+}
+.site-head .topbar .shortcut-links > ul > li.have-menu .menu .menu-list a{
+  font-size: 12px;
+  color: #1C1F21;
+  line-height: 20px;
+}
+.site-head .topbar .shortcut-links > ul > li.have-menu .menu .menu-list a:hover{
+  color: orange;
+}
+.site-head .topbar .shortcut-links > ul > li.have-menu .sqmenu{
+  width: 110px;
+}
+.site-head .topbar .shortcut-links > ul > li.have-menu .scmenu{
+  width: 66px;
+}
+.site-head .topbar .shortcut-links > ul > li.have-menu .jmmenu{
+  width: 54px;
+}
+.site-head .topbar .topbar-r{
+  float: right;
+  width: 225px;
+}
+.site-head .topbar .topbar-r a, .site-head .topbar .topbar-r span{
+  margin-right: 11px;
+  font-size: 15px;
+}
+.site-head .topbar .topbar-r a:last-child{
+  margin-right: 0;
+}
+
+.site-head .main-nav{
+  height: 40px;
+  min-width: 1152px;
+  background-color: #20bd9a;
+}
+.site-head .main-nav ul li{
+  float: left;
+  margin-right: 18px;
+}
+.site-head .main-nav ul li a{
+  line-height: 40px;
+  color: white;
+  font-size: 16px;
+}
+.site-head .main-nav ul li.have-menu{
+  padding-right: 16px;
+  position: relative;
+}
+.site-head .main-nav ul li.have-menu::after{
+  content: '';
+  position: absolute;
+  right: 0;
+  top:18px;
+  border: 5px solid transparent;
+  border-bottom: 0;
+  border-top-color: #fff;
+  transition: transform .2s ease 0s;
+}
+.site-head .main-nav ul li.have-menu:hover::after{
+  transform: rotate(180deg);
+}
+.site-head .main-nav ul li.have-menu .menu{
+  position: absolute;
+  top:35px;
+  background-color: white;
+  z-index: 9999;
+  display: none;
+  padding-top: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+.site-head .main-nav ul li.have-menu:hover .menu{
+  display: block;
+}
+.site-head .main-nav ul li.have-menu .menu dl dt{
+  font-size: 14px;
+  color: #1C1F21;
+  font-family: PingFangSC-Semibold;
+  line-height: 20px;
+}
+.site-head .main-nav ul li.have-menu .menu dl dd a{
+  display: inline-block;
+  font-size: 12px;
+  color: #1C1F21;
+  line-height: 20px;
+}
+.site-head .main-nav ul li.have-menu .menu dl dd a:hover{
+  color: orange;
+}
+.site-head .main-nav ul li.have-menu .jjzyx-menu{
+  width: 150px;
+}
+.site-head .main-nav ul li.have-menu .gty-menu{
+  width: 96px;
+}
+.site-head .main-nav ul li.have-menu .ddwl-menu{
+  width: 160px;
+}
+.site-head .main-nav ul li.have-menu .sdly-menu{
+  width: 108px;
+}
+
+.site-head .header-con{
+  height: 36px;
+  padding: 21px 0;
+}
+.site-head .header-con h1{
+  float: left;
+  font-size: 24px;
+  color: #20bd9a;
+  font-weight: 700;
+  line-height: 36px;
+  margin-right: 20px;
+}
+.site-head .header-con .soso-box{
+  float: left;
+  width: 405px;
+  padding-top: 2px;
+}
+.site-head .header-con .soso-box input{
+  float: left;
+  width: 361px;
+  height: 28px;
+  border: 1px solid #20bd9a;
+  border-radius: 4px 0 0 4px;
+  font-size: 14px;
+  padding-left: 10px;
+  /* 取消默认外线 */
+  outline: none;
+}
+.site-head .header-con .soso-box a{
+  float: left;
+  width: 32px;
+  height: 30px;
+  border-radius: 0 4px 4px 0;
+  background-color: #20bd9a;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.banner{
+  position: relative;
+}
+.banner img{
+  width: 100%;
+  /* 设置最小宽度 */
+  min-width: 1152px;
+  /* 解决图片和盒子之间的缝隙，父元素是块元素，子元素是行内元素，会产生一个缝隙
+  使用vertical-align: middle 小技巧，来解决这个缝隙问题
+   */
+   vertical-align: middle;
+   
+}
+.banner .center-wrap{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -576px;
+  width: 1152px;
+  height: 100%;
+}
+.banner .center-wrap .banner-nav{
+  height: 100%;
+}
+.banner .center-wrap .banner-nav ul{
+  height: 100%;
+}
+.banner .center-wrap .banner-nav ul li{
+  height: 16.66%;
+  width: 296px;
+  background-color: rgba(0, 0, 0, .53);
+  box-sizing: border-box;
+  /* box-sizing: :border-box; 让height属性是盒子的总高度，这种情况再盒子的高度是百分数写的，但是盒子有边框
+  此时要让盒子的边框涵盖再height里面*/
+  border-bottom: 1px solid #9e9e9e;
+}
+.banner .center-wrap .banner-nav ul li:last-child{
+  border-bottom: none;
+}
+.banner .center-wrap .btnleft{
+  position: absolute;
+  width: 28px;
+  height: 44px;
+  top: 50%;
+  left: -38px;
+  margin-top: -22px;
+  background-image: url('../images/icons.png');
+  background-repeat: no-repeat;
+  background-position: -21px -94px;
+}
+.banner .center-wrap .btnright{
+  position: absolute;
+  width: 28px;
+  height: 44px;
+  top: 50%;
+  right: -38px;
+  margin-top: -22px;
+  background-image: url('../images/icons.png');
+  background-repeat: no-repeat;
+  background-position: -21px -29px;
+}
+.banner .center-wrap .btnleft:hover, .banner .center-wrap .btnright:hover{
+  opacity: 0.8;
+}
+.banner .center-wrap .banner-nav>ul>li{
+  position: relative;
+}
+.banner .center-wrap .banner-nav>ul>li dl{
+  position: absolute;
+  height: 48px;
+  top: 50%;
+  left: 42px;
+  margin-top: -24px;
+  color: white;
+}
+.banner .center-wrap .banner-nav>ul>li dl dt{
+  font-size: 18px;
+  line-height: 26px;
+}
+.banner .center-wrap .banner-nav>ul>li dl dd{
+  font-size: 16px;
+  line-height: 22px;
+}
+.banner .center-wrap .banner-nav>ul>li::before{
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 7px;
+}
+.banner .center-wrap .banner-nav>ul>li.hot::before{
+  width: 22px;
+  height: 18px;
+  margin-top: -9px;
+  background: url('../images/icons.png') no-repeat -29px -399px;
+}
+.banner .center-wrap .banner-nav>ul>li.gat::before{
+  width: 18px;
+  height: 21px;
+  margin-top: -10.5px;
+  background: url('../images/icons.png') no-repeat -28px -217px;
+}
+.banner .center-wrap .banner-nav>ul>li.jp::before{
+  width: 24px;
+  height: 19px;
+  margin-top: -9.5px;
+  background: url('../images/icons.png') no-repeat -25px -171px;
+}
+.banner .center-wrap .banner-nav>ul>li.as::before{
+  width: 18px;
+  height: 19px;
+  margin-top: -9.5px;
+  background: url('../images/icons.png') no-repeat -28px -262px;
+}
+.banner .center-wrap .banner-nav>ul>li.eu::before{
+  width: 20px;
+  height: 14px;
+  margin-top: -7px;
+  background: url('../images/icons.png') no-repeat -29px -351px;
+}
+.banner .center-wrap .banner-nav>ul>li.au::before{
+  width: 18px;
+  height: 17px;
+  margin-top: -8.5px;
+  background: url('../images/icons.png') no-repeat -28px -305px;
+}
+.banner .center-wrap .banner-nav .menus-box .menu{
+  width: 356px;
+  height: 100%;
+  position: absolute;
+  top:0;
+  left:296px;
+  background-color:rgba(0, 0, 0, .73);
+  color: white;
+  padding: 16px;
+  box-sizing: border-box;
+  display: none;
+}
+.banner .center-wrap .banner-nav .menus-box .current{
+  display: block;
+}
+.banner .center-wrap .banner-nav .menus-box .menu dl{
+  margin-bottom: 16px;
+}
+.banner .center-wrap .banner-nav .menus-box .menu dl dt{
+  line-height: 30px;
+  font-size: 18px;
+}
+.banner .center-wrap .banner-nav .menus-box .menu dl dd{
+  line-height: 25px;
+  font-size: 15px;
+}
+.banner .center-wrap .banner-nav .menus-box .menu dl dd a{
+  color: white;
+}
+.banner .center-wrap .banner-nav ul:nth-of-type(1) li:hover{
+  
+}
+
+
+
+
+
+
+
+
