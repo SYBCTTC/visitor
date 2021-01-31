@@ -368,6 +368,7 @@
 .banner .center-wrap .banner-nav .menus-box .menu dl dd a{
   color: white;
 }
+/* 此处不知道如何写菜单联动 */
 .banner .center-wrap .banner-nav ul:nth-of-type(1) li:hover{
   
 }
