@@ -32,6 +32,13 @@
       "font_class": "weibo",
       "unicode": "e67a",
       "unicode_decimal": 59002
+    },
+    {
+      "icon_id": "7587983",
+      "name": "右箭头",
+      "font_class": "youjiantou",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
     }
   ]
 }
